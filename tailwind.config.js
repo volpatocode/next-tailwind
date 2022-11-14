@@ -31,6 +31,9 @@ module.exports = {
           100: "rgba(0, 0, 0, .1)",
         },
       },
+      fontFamily: {
+        cursive: "Dancing Script, cursive",
+      },
     },
   },
   plugins: [],
