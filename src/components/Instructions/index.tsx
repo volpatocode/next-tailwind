@@ -2,9 +2,9 @@ export default function index() {
   return (
     <div className="container mx-auto flex flex-col gap-6 justify-center items-center">
       <h3 className="text-4xl font-semibold">How it works?</h3>
-      <div className="flex flex-row gap-2 justify-between items-center">
-        <div className="flex flex-col gap-2">
-          <div className="p-4 border-2 border-pink-700 rounded-full w-fit">
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-4 text-center">
+        <div className="flex flex-col gap-2 items-center">
+          <div className="p-4 border-2 border-pink-700 rounded-full w-fit cursor-pointer hover:opacity-80 transition-all duration-200">
             <svg
               className="w-6 h-6"
               fill="none"
@@ -25,8 +25,8 @@ export default function index() {
             Once you have set up your wishlist of choice
           </p>
         </div>
-        <div className="flex flex-col gap-2">
-          <div className="p-4 border-2 border-pink-700 rounded-full w-fit">
+        <div className="flex flex-col gap-2 items-center">
+          <div className="p-4 border-2 border-pink-700 rounded-full w-fit cursor-pointer hover:opacity-80 transition-all duration-200">
             <svg
               className="w-6 h-6"
               fill="none"
@@ -48,8 +48,8 @@ export default function index() {
             collection
           </p>
         </div>
-        <div className="flex flex-col gap-2">
-          <div className="p-4 border-2 border-pink-700 rounded-full w-fit">
+        <div className="flex flex-col gap-2 items-center">
+          <div className="p-4 border-2 border-pink-700 rounded-full w-fit cursor-pointer hover:opacity-80 transition-all duration-200">
             <svg
               className="w-6 h-6"
               fill="none"
@@ -71,8 +71,8 @@ export default function index() {
             properties.
           </p>
         </div>
-        <div className="flex flex-col gap-2">
-          <div className="p-4 border-2 border-pink-700 rounded-full w-fit">
+        <div className="flex flex-col gap-2 items-center">
+          <div className="p-4 border-2 border-pink-700 rounded-full w-fit cursor-pointer hover:opacity-80 transition-all duration-200">
             <svg
               className="w-6 h-6"
               fill="none"

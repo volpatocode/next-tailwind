@@ -2,69 +2,76 @@ import Logo from "../Logo";
 
 export default function index() {
   return (
-    <div className="border-t-2 border-solid border-gray-300">
+    <div style={{ borderTop: "1px solid rgba(255, 255, 255, .6)" }}>
       <div className="container m-auto flex flex-row justify-between py-12">
         <div className="flex flex-col gap-3 w-3/12 ">
           <Logo />
-          <p className="text-xs text-stone-400 ">
+          <p className="text-xs text-white-600 ">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum
             aut voluptas eius harum ab id, ducimus, tempore doloremque officiis
             dolor sequi illum nisi ea, dolorem similique explicabo eligendi qui
             rem.
           </p>
-          <div className="">social icons</div>
+          <div className="flex flex-row gap-3">socials</div>
         </div>
         <div className="flex flex-row gap-12">
           <div className="flex flex-col gap-2">
             <ul className="flex flex-col gap-1">
-              <h4 className="mb-2 text-slate-200 font-semibold">
-                Privacy Police
-              </h4>
+              <h4 className="mb-2 text-white-900 font-semibold">Our Polices</h4>
               <li>
-                <a className="cursor-pointer text-slate-200">Lorem</a>
+                <a className="cursor-pointer text-white-900 hover:text-white-800 transition-all duration-200">
+                  Privacy Policy
+                </a>
               </li>
               <li>
-                <a className="cursor-pointer text-slate-200">Lorem</a>
+                <a className="cursor-pointer text-white-900 hover:text-white-800 transition-all duration-200">
+                  Terms of Use
+                </a>
               </li>
               <li>
-                <a className="cursor-pointer text-slate-200">Lorem</a>
-              </li>
-              <li>
-                <a className="cursor-pointer text-slate-200">Lorem</a>
+                <a className="cursor-pointer text-white-900 hover:text-white-800 transition-all duration-200">
+                  Refund Policy
+                </a>
               </li>
             </ul>
           </div>
           <div className="flex flex-col gap-2">
             <ul className="flex flex-col gap-1">
-              <h4 className="mb-2 text-slate-200 font-semibold">About</h4>
+              <h4 className="mb-2 text-white-900 font-semibold">About</h4>
               <li>
-                <a>Lorem</a>
+                <a className="cursor-pointer text-white-900 hover:text-white-800 transition-all duration-200">
+                  FAQ
+                </a>
               </li>
               <li>
-                <a className="cursor-pointer text-slate-200">Lorem</a>
-              </li>
-              <li>
-                <a className="cursor-pointer text-slate-200">Lorem</a>
-              </li>
-              <li>
-                <a className="cursor-pointer text-slate-200">Lorem</a>
+                <a className="cursor-pointer text-white-900 hover:text-white-800 transition-all duration-200">
+                  History
+                </a>
               </li>
             </ul>
           </div>
           <div>
             <ul className="flex flex-col gap-1">
-              <h4 className="mb-2 text-slate-200 font-semibold">Contact</h4>
+              <h4 className="mb-2 text-white-900 font-semibold">Contact</h4>
               <li>
-                <a className="cursor-pointer text-slate-200">Lorem</a>
+                <a className="cursor-pointer text-white-900 hover:text-white-800 transition-all duration-200">
+                  nfthink@realemail.com
+                </a>
               </li>
               <li>
-                <a className="cursor-pointer text-slate-200">Lorem</a>
+                <a className="cursor-pointer text-white-900 hover:text-white-800 transition-all duration-200">
+                  +9882 1219 2031
+                </a>
               </li>
               <li>
-                <a className="cursor-pointer text-slate-200">Lorem</a>
+                <a className="cursor-pointer text-white-900 hover:text-white-800 transition-all duration-200">
+                  +1332 4119 2038
+                </a>
               </li>
               <li>
-                <a className="cursor-pointer text-slate-200">Lorem</a>
+                <a className="cursor-pointer text-white-900 hover:text-white-800 transition-all duration-200">
+                  @nfthink
+                </a>
               </li>
             </ul>
           </div>
