@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
       <div className="flex flex-col justify-between">
         <Navbar />
-        <div className="container mx-auto w-full min-h-[95vh] flex flex-col justify-around py-10">
+        <div className="container mx-auto w-full min-h-[95vh] flex flex-col justify-around py-10 gap-16">
           <div className=" flex flex-row justify-between">
             <div className=" w-1/3 flex flex-col gap-6">
               <h1 className="font-extrabold text-6xl">
@@ -52,7 +52,7 @@ export default function Home() {
             <div className="w-1/2">carrousel</div>
           </div>
           <Instructions />
-          <Categories />
+           <Categories />
         </div>
         <Footer />
       </div>
