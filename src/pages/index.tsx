@@ -1,8 +1,8 @@
 import Head from "next/head";
-import Logo from "../components/Logo";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Instructions from "../components/Instructions";
+import Categories from "../components/Categories";
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
       <div className="flex flex-col justify-between">
         <Navbar />
-        <div className="container mx-auto w-full min-h-[90vh] flex flex-col justify-around">
+        <div className="container mx-auto w-full min-h-[95vh] flex flex-col justify-around py-10">
           <div className=" flex flex-row justify-between">
             <div className=" w-1/3 flex flex-col gap-6">
               <h1 className="font-extrabold text-6xl">
@@ -52,6 +52,7 @@ export default function Home() {
             <div className="w-1/2">carrousel</div>
           </div>
           <Instructions />
+          <Categories />
         </div>
         <Footer />
       </div>
