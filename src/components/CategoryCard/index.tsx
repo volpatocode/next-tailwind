@@ -9,7 +9,7 @@ export default function index(category: categoryType) {
 
       }}
     >
-      <h3 className="font-extrabold text-3xl">{category.name}</h3>
+      <h3 className="font-extrabold text-3xl text-center">{category.name}</h3>
     </div>
   );
 }
